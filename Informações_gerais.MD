@@ -9,18 +9,18 @@ To do
 Os branches devem ser criados sempre a partir do ‘main’ 
 Lembre-se de sempre atualizar o seu repositório local usando ``git pull`` antes de criar um novo branch, caso contrário você estará trabalhando em um branch desatualizado, o que poderá causar conflitos ao submeter as novas alterações.
 
-Exemplo:
+**Exemplo:**
 
 feat(funcionalidade)
 fix(bug-id - utilizar a referência do bug-id/issue) 
 docs(documento que será atualizado)
 
-Para mais informações relacionado a commits semânticos:
+___Para mais informações relacionado a commits semânticos:___
 
 Referências:
-[https://blog.cubos.io/que-tal-comecar-a-usar-commits-semanticos/]
-[https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716]
-[https://www.conventionalcommits.org/en/v1.0.0/]
+https://blog.cubos.io/que-tal-comecar-a-usar-commits-semanticos/
+https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716
+https://www.conventionalcommits.org/en/v1.0.0/
 
 ## Issues
 
