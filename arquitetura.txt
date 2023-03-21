@@ -1,0 +1,9 @@
+1. Aplicativo móvel: O aplicativo móvel é a interface do usuário para enviar e receber mensagens. Ele pode ser desenvolvido em plataformas como o iOS e o Android.
+2. Aplicação WEB: A plicação é a interface do usuário para enviar e receber mensagens.
+3. Amazon S3: É um serviço de armazenamento de objetos usado para armazenar as mensagens enviadas pelos usuários. Também usado para armazenar imagens, arquivos de áudio e vídeo e outros tipos de mídia.
+4. Amazon DynamoDB: É um serviço de banco de dados NoSQL para armazenar os dados do usuário, como informações de perfil e histórico de conversas.
+5. Amazon SQS: Serviço de fila de mensagens usado para transmitir mensagens entre os diferentes serviços da AWS. Garantir que as mensagens sejam entregues em ordem e para evitar perda de mensagens.
+6. Amazon SNS: Serviço de notificação usado para enviar notificações push para o aplicativo móvel. Ele pode ser usado para notificar os usuários sobre novas mensagens ou outras atualizações.
+7. Amazon EC2: Serviço de computação em nuvem usado para hospedar servidores de aplicativos. Usado para aumentar ou diminuir a capacidade da infraestrutura, conforme necessário.
+
+Este diagrama mostra como usamos os serviços da AWS para criar uma infraestrutura escalável e resiliente para o projeto do WhatsApp. O aplicativo móvel ou Web se comunica com o AWS API Gateway, que encaminha as solicitações para o SNS e SQS. O EC2 então armazena e recuperar as mensagens usando o Amazon DynamoDB e o Amazon S3.
